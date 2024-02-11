@@ -9,4 +9,13 @@
 	- create CustomUserAdmin which inherits from UserAdmin
 	- add_form, form, model > all of them are attributes of UserAdmin class. We are just changing them
 4.6. Tests
-	- 
+	- TestCase
+	- UnitTests
+
+5.0. create pages app
+	- add templates to BASE_DIR
+	- html files: _base and home
+	- configure urls, views: TemplateView
+	- testing: reverse()
+	- setUp - DRY principle
+	- resolve()
