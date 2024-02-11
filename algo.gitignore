@@ -1,0 +1,12 @@
+--- < BOOKSTORE plan > ---
+
+4.1. venv creation
+4.2. Postgres integration
+4.3. models: custom user model
+4.4. forms: UserCreation, UserChangeForms
+	- get_user_model()
+4.5. Custom User Admin
+	- create CustomUserAdmin which inherits from UserAdmin
+	- add_form, form, model > all of them are attributes of UserAdmin class. We are just changing them
+4.6. Tests
+	- 
