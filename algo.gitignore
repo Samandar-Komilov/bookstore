@@ -19,3 +19,21 @@
 	- testing: reverse()
 	- setUp - DRY principle
 	- resolve()
+	
+6.0. User Registration
+	- Using django's default auth functionality which is already added to INSTALLED_APPS
+	- include("django.contrib.auth.urls")
+6.1. Config Templates
+	- Update templates/home.html
+	- templates/registration/login.html
+	- settings.py: after logging in, automatically redirects to home: LOGIN_REDIRECT_URL = "home"
+	- LOGOUT_REDIRECT_URL as well
+6.2. SignUp: Implementing a sign up page for user registration is completely up to us.
+	- accounts/urls.py
+	- django_project/urls.py to point to the accounts app
+	- SignupPageView
+	- signup.html
+	- home.html
+	- SignUpPageView: generics.CreateView
+	- LogoutView: GET request to /logout deprecated since 4.1 version
+	
