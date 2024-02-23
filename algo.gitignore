@@ -36,4 +36,12 @@
 	- home.html
 	- SignUpPageView: generics.CreateView
 	- LogoutView: GET request to /logout deprecated since 4.1 version
-	
+7.0. Static Assets
+	- CSS/JS/Image files are located in static folder
+	- collectstatic command : STATIC_ROOT
+	- staticfiles storage
+	- Bootstrap connect
+	- Tests
+7.1. Crispy Forms
+	- download, set in settings.py
+	- change {{form.as_p}} to {{form|crispy}}
